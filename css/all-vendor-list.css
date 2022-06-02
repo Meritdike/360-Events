@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.search-role{
+    width: 50%;
+}
+
+
+.main-header{
+    border: 1px solid #9EA2BB;
+    background-color: #D8D8D8;
+    border: 1px solid #9EA2BB;
+}
+
+.main-header .header-list h5, .navbar ul li a {
+    color: #012762;
+}
+
+@media(max-width:769px){
+    .main-header .header-list h5, .navbar ul li a {
+       font-size: 14px;
+    } 
+}
+
+@media(max-width:426px){
+    .main-header .header-list{
+     flex-direction: column;
+    }
+    .main-header .header-list h5, .navbar ul li a{
+        font-size: 20px;
+    }
+}
