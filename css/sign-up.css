@@ -10,3 +10,9 @@
     background-size: cover;
     background-position: center;
 }
+
+@media(max-width: 769px) {
+    .form-section {
+        width: 90% !important;
+    }
+}
