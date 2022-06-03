@@ -3,6 +3,11 @@
     min-height: 70vh;
 }
 
+.bg-dark {
+    background: #0E0E2C !important;
+
+}
+
 input#search{
     background-image: url(../img/search.icon.png);
     background-repeat: no-repeat;
@@ -19,8 +24,9 @@ input#search:focus {
 
 .card {
      box-shadow: 1px 2px 15px 1px rgba(158, 162, 187, 0.87);
-     height: 28vh !important;
+     height: 24vh !important;
      transition: transform ease-in 0.3s;
+     border-radius: 18px;
 }
 
 .card:hover {
@@ -47,10 +53,6 @@ input#search:focus {
 } 
 
 @media (max-width: 1025px) {
-    .card {
-        min-height: 45vh !important;
-    }
-
     .plus-sign  {
         width: 4%;
         height: 7vh;
@@ -60,10 +62,6 @@ input#search:focus {
 @media (max-width: 769px) {
     #help-intro .intro-head {
         padding: 1px !important;
-    }
-
-    .card {
-        min-height: 40vh !important;
     }
 
     .plus-sign  {
