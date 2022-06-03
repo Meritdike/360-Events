@@ -45,3 +45,14 @@ input#search:focus {
 .bi:hover {
     color: blue;
 }
+
+@media (max-width: 426px) {
+    #promote-events {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .subhelp-categories, .subpromote-events {
+        width: 100% !important;
+    }
+}
