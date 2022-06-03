@@ -13,6 +13,10 @@ input#search:focus {
     min-height: 30vh;
 }
 
+#manage-events .submanage-events {
+    box-shadow: 1px 2px 15px 1px rgba(159, 159, 159, 0.64);
+}
+
 .black-space {
     background: #0E0E2C;
     min-height: 3vh;
@@ -30,6 +34,25 @@ input#search:focus {
     color: #012762;
 }
 
+.btn:hover {
+    background: #012762;
+}
+
 .email-link {
     color: #9EA2BB;
+}
+
+.bi:hover {
+    color: blue;
+}
+
+@media (max-width: 426px) {
+    #manage-events {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .subhelp-categories, .submanage-events {
+        width: 100% !important;
+    }
 }
