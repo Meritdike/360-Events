@@ -1,3 +1,20 @@
+const btns = document.querySelectorAll (".nav-link");
+const dropdownItems = document.querySelectorAll (".dropdown-item");
+
+btns.forEach(btn => {
+    btn.addEventListener ('click', function(){
+      btns.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+    });
+});
+
+dropdownItems.forEach(dropdownItem => {
+    dropdownItem.addEventListener ('click', function(){
+      dropdownItems.forEach(dropdownItem => dropdownItem.classList.remove('active'));
+      this.classList.add('active');
+    });
+});
+
 let bidEnd = new Date("Jun 6, 2022 12:00:00").getTime();
 
 let timer = setInterval(tick, 1000)
@@ -19,5 +36,29 @@ function tick () {
         let time = `${hours} : ${mins} : ${secs}`;
         
         document.querySelector('.countDown').innerText = time;
+    }
+}
+
+let bidEnd1 = new Date("Jun 6, 2022 12:00:00").getTime();
+
+let timer1 = setInterval(tick, 1000)
+
+function tick () {
+    let now = new Date().getTime();
+    let t1 = bidEnd1 - now;
+
+    if (t1>0) {
+        let hours = Math.floor(t1/(1000 * 60 * 60));
+        if (hours < 10) { hours = "0" + hours; }
+
+        let mins = Math.floor ((t1 % (1000 * 60 * 60)) / (1000 * 60));
+        if (mins < 10) { mins = "0" + mins; }
+
+        let secs = Math.floor ((t1 % (1000 * 60)) / (1000));
+        if (secs < 10) { secs = "0" + secs; }
+
+        let time1 = `${hours} : ${mins} : ${secs}`;
+        
+        document.querySelector('.countDown1').innerText = time1;
     }
 }
