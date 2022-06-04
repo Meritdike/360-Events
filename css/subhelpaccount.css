@@ -48,11 +48,6 @@ input#search:focus {
 
 
 @media (max-width: 426px) {
-    #account-settings {
-        flex-direction: column !important;
-        justify-content: center;
-    }
-
     .subhelp-categories, .subaccount-settings {
         width: 100% !important;
     }
