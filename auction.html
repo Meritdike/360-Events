@@ -60,11 +60,23 @@
           </nav>
     </header>
     <section id="navSection" class="bg-secondary py-4">
-        <div class="container d-flex">
-            <a href="how-it-works.html" class="fs-6 px-3 text-decoration-none text-white">How It Works</a>
-            <a href="#" class="fs-6 px-3 text-decoration-none text-white">Browse Auctions</a>
-            <a href="#" class="fs-6 px-3 text-decoration-none text-white">Add Bid</a>
-        </div> 
+        <div class="navbar navbar-dark navbar-expand-lg navbar-expand-md">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold" href="#">How It Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold" href="#">Browse Auctions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-light fw-bold" href="#">Add bid</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
     <section id="regSection" class="py-4 bg-reg text-light">
         <div class="container">
@@ -111,9 +123,9 @@
                                     </div>
                                 </div>
                                 <div class="bidButton pb-4">
-                                    <button class="btn btn-outline-primary">BID NOW</button>
+                                    <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                    <p id="bids" class="ps-4 pt-2"></p>
                                 </div>                        
-                                <div class="couterUp"></div>
                             </div>
                         </div>
                     </div>
@@ -128,11 +140,13 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown1 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <div class="bidButton pb-4">
+                                    <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                    <p id="bids1" class="ps-4 pt-2"></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -147,11 +161,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown2 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -166,11 +180,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown3 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -185,11 +199,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown4 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -204,11 +218,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown5 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -223,11 +237,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown6 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown  fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -242,11 +256,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown7 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -261,11 +275,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown8 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -280,11 +294,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown9 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -299,11 +313,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown10 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -318,11 +332,11 @@
                                     <p class="money pe-3 fs-6">N5,234,564.00</p>
                                     <div class="time d-flex justify-content-around">
                                         <img src="img/clock.png" class="h-50">
-                                        <p class="countDown11 fs-6">00 : 00 : 00</p>
+                                        <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button class="btn btn-outline-primary">BID NOW</button>
-                                <div class="couterUp"></div>
+                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
+                                <p id="bids" class="ps-4 pt-2"></p>
                             </div>
                         </div>
                     </div>
@@ -332,8 +346,7 @@
                 <button class="btn btn-primary btn px-5">View more</button>
             </div>
         </div>
-    </section>
-    
+    </section>    
     <footer style="background-color: #2750A8;">
         <div class="container py-3 py-lg-5 py-md-5">
           <div class="row text-light">
