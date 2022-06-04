@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav-link:hover, .nav-link.active {
+    color: #2851a9 !important;
+    font-size: 16px !important;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+    background-color: transparent !important;
+    color: #2851a9 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    opacity: 0.8;
+  }
+  
+#second-navbar .navbar{
+  background-color: #0E0E2C !important;
+}
+
+.main-header .vendor-profile .vendor-logo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+
+.main-header .vendor-profile .naomi-image{
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
+.main-header .header-list{
+    position: relative;
+    z-index: 2;
+}
+
+.navbar{
+    position: relative;
+    z-index: 2;
+}
+
+.main-header .vendor-profile .naomi-image{
+    padding-top: 7% !important;
+}
+
+@media(max-width:426px){
+
+  .main-header .header-list h5{
+    font-size: 12px;
+  }
+ 
+    #vendor-items-section .items-intro h5{
+        margin-right: 8px !important;
+       font-size: 12px !important;
+      
+    }
+    #vendor-items-section .food-items .booknow a button{
+        width: 200px !important;
+    }
+}
+
+@media(max-width:376px){
+  #vendor-items-section .items-intro{
+    flex-direction: column;
+  }
+}
+
+@media(max-width:321px){
+  .main-header .header-list h5{
+    font-size: 8px;
+  }
+
+}
