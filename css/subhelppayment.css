@@ -47,11 +47,6 @@ input#search:focus {
 }
 
 @media (max-width: 426px) {
-    #events-payment {
-        flex-direction: column !important;
-        justify-content: center;
-    }
-
     .subhelp-categories, .subevents-payment {
         width: 100% !important;
     }
