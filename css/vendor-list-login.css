@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.nav-link:hover, .nav-link.active {
+    color: #2851a9 !important;
+    font-size: 16px !important;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+    background-color: transparent !important;
+    color: #2851a9 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    opacity: 0.8;
+  }
+
+.search-role{
+    width: 50%;
+}
+
+
+.main-header{
+    border: 1px solid #9EA2BB;
+    background-color: #D8D8D8;
+    border: 1px solid #9EA2BB;
+}
+
+.main-header .header-list h5, .navbar ul li a {
+    color: #012762;
+
+}
+
+#vendor-section{
+    /* padding: 80px 0px; */
+    min-height: 100vh;
+}
+
+#vendor-section .vendor .vendor-image{
+    min-height: 80vh;
+    background: url(../img/vendor.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#vendor-section .vendor .vendor-image h2{
+    color: #CF0212;
+    font-family: public-sans;
+    font-weight: 700;
+    font-size: 60px;
+    width: 50%;
+}
+
+
+#vendor-category-section .vendor-category .top-category, #top-vendor-section .top-vendor .top-vendor-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media(max-width:769px){
+    .ms-auto{
+    margin-right: 60px;
+    }
+}
+
+@media(max-width:426px){
+    .main-header .header-list h5{
+        font-size: 14px;
+    }
+
+    #vendor-category-section .vendor-category .top-category, #top-vendor-section .top-vendor .top-vendor-text{
+        flex-direction: column;
+        
+       }
+       #vendor-category-section .vendor-category .top-category .category-btn{
+           margin-top: 5px;
+       }
+       #vendor-category-section .vendor-category .top-category h3, #top-vendor-section .top-vendor .top-vendor-text h3{
+        text-align: center;
+    }
+
+    #vendor-section .vendor .vendor-text h2, p{
+        padding: 0% 5%;
+    }
+}
+
+@media(max-width:376px){
+    #vendor-section .vendor .vendor-image h2{
+    width: 100%;
+    font-size: 48px;
+    }
+
+    .main-header .header-list h5{
+        font-size: 12px;
+        margin-right: 14px !important;
+    }
+
+    #vendor-category-section .vendor-category .top-category, #top-vendor-section .top-vendor .top-vendor-text{
+     flex-direction: column;
+    }
+
+    #vendor-category-section .vendor-category .top-category h3, #top-vendor-section .top-vendor .top-vendor-text h3{
+        text-align: center;
+    }
+
+    #vendor-section .vendor .vendor-text h2, p{
+        padding: 0% 5%;
+    }
+    #vendor-category-section .vendor-category .top-category .category-btn{
+        margin-top: 5px;
+    }
+}
