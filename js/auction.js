@@ -36,9 +36,12 @@ function tick () {
 
         let time = `${hours} : ${mins} : ${secs}`;
         
-        document.querySelectorAll('.countDown').innerText = time;
+        let y = document.querySelectorAll('.countDown')
+
+        y.forEach(element=>element.innerText = time)
     }
 }
+
 
 let click = 0;
 function fun() {

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
@@ -25,35 +26,26 @@
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link me-2 fw-bold" href="#" style="color: #060316;font-size: 14px;">Home</a>
+                    <a class="nav-link me-2 fw-bold"  href="landing-pagelogin.html" style="color: #060316;font-size: 14px;">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2 fw-bold" href="#" style="color: #060316; font-size: 14px;">About Us</a>
+                    <a class="nav-link me-2 fw-bold" href="about-uslogin.html" style="color: #060316; font-size: 14px;">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2 fw-bold" href="#" style="color: #060316; font-size: 14px;">Create an Event</a>
+                    <a class="nav-link me-2 fw-bold" href="log-in.html" style="color: #060316; font-size: 14px;">Create an Event</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2 active fw-bold" aria-current="page" href="#" style="color: #060316; font-size: 14px;">Auction Page</a>
+                    <a class="nav-link me-2 active  fw-bold" aria-current="page" href="auctionlogin.html" style="color: #060316; font-size: 14px;">Auction Page</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2 fw-bold" href="#" style="color: #060316; font-size: 14px; ">Help Center</a>
+                    <a class="nav-link me-2 fw-bold" href="helplogin.html" style="color: #060316; font-size: 14px;">Help Center</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #060316; font-size: 14px;">
-                      More Options
-                    </a>
-                    <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Profile</a></li>
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Reviews</a></li>
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Payments</a></li>
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Created Events</a></li>
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Bookmarks</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Log In</a></li>
-                      <li><a class="dropdown-item" href="#" style="color: #060316; font-size: 14px;">Sign Up</a></li>
-                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link me-2 fw-bold" href="log-in.html" style="color: #060316; font-size: 14px;">Log In</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-2 fw-bold" href="sign-up.html" style="color: #060316; font-size: 14px;">Sign Up</a>
+                  </li>  
                 </ul>
               </div>
             </div>
@@ -65,13 +57,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link link-light fw-bold" href="#">How It Works</a>
+                            <a class="nav-link link-light fw-bold" href="login.html">How It Works</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light fw-bold" href="#">Browse Auctions</a>
+                            <a class="nav-link link-light fw-bold" href="login.html">Browse Auctions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link-light fw-bold" href="#">Add bid</a>
+                            <a class="nav-link link-light fw-bold" href="login.html">Add bid</a>
                         </li>
                     </ul>
                 </div>
@@ -98,7 +90,7 @@
                             <h2 class="pe-lg-4 pt-lg-2 ps-md-3 pt-md-3 ps-3 pt-3">Bid</h2>
                         </div>
                     </div>
-                    <button class="btn btn-secondary fs-2 text-light">Register to Start Bidding</button>
+                    <button class="btn btn-secondary fs-2"><a href="sign-up.html" class="text-decoration-none text-light ">Register to Start Bidding</a></button>
                 </div>
                 <div class="col-lg-6 py-3">
                     <img src="img/paint.png" class="img-fluid">
@@ -123,8 +115,8 @@
                                     </div>
                                 </div>
                                 <div class="bidButton pb-4">
-                                    <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                    <p id="bids" class="ps-4 pt-2"></p>
+                                    <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                    <p class="ps-4 pt-2">342 bids</p>
                                 </div>                        
                             </div>
                         </div>
@@ -144,8 +136,8 @@
                                     </div>
                                 </div>
                                 <div class="bidButton pb-4">
-                                    <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                    <p id="bids1" class="ps-4 pt-2"></p>
+                                    <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                    <p class="ps-4 pt-2">420 bids</p>
                                 </div>
                             </div>
                         </div>
@@ -164,8 +156,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">224 bids</p>
                             </div>
                         </div>
                     </div>
@@ -183,8 +175,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">128 bids</p>
                             </div>
                         </div>
                     </div>
@@ -202,8 +194,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">147 bids</p>
                             </div>
                         </div>
                     </div>
@@ -221,8 +213,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">119 bids</p>
                             </div>
                         </div>
                     </div>
@@ -240,8 +232,8 @@
                                         <p class="countDown  fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">453 bids</p>
                             </div>
                         </div>
                     </div>
@@ -259,8 +251,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">25 bids</p>
                             </div>
                         </div>
                     </div>
@@ -278,8 +270,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">98 bids</p>
                             </div>
                         </div>
                     </div>
@@ -297,8 +289,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">240 bids</p>
                             </div>
                         </div>
                     </div>
@@ -316,8 +308,8 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">56 bids</p>
                             </div>
                         </div>
                     </div>
@@ -335,12 +327,13 @@
                                         <p class="countDown fs-6">00 : 00 : 00</p>
                                     </div>
                                 </div>
-                                <button id="button" class="btn btn-outline-primary" onclick="fun();">BID NOW</button>
-                                <p id="bids" class="ps-4 pt-2"></p>
+                                <button id="button" class="btn btn-outline-primary"><a href="log-in.html" class="text-decoration-none">BID NOW</a></button>
+                                <p class="ps-4 pt-2">212 bids</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
             <div class="d-flex justify-content-center align-content-center text-center pb-5">
                 <button class="btn btn-primary btn px-5">View more</button>
