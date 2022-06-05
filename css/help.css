@@ -46,17 +46,7 @@ input#search:focus {
 }
 
 @media (max-width: 769px) {
-    #help-intro .intro-head {
-        padding: 1px !important;
-    }
-
     .input-group {
         width: 70% !important;
-    }
-}
-
-@media (max-width: 321px) {
-    #help-intro .intro-head {
-        padding: 20px !important;
     }
 }
