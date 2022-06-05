@@ -25,7 +25,7 @@
     background:linear-gradient(0deg, rgba(39, 80, 168, 0.2), rgba(39, 80, 168, 0.2)), url(../img/Rectangle\ 124.png) no-repeat;
     background-size:cover;
     background-position: center;
-    padding-top: 200px;
+    padding-top: 90px;
 }
 .price-border {
     width: 0;
@@ -83,10 +83,11 @@
     color: #4BD37B;
 }
 
+
 /*desktop*/
 @media (max-width: 769px) {
     .hero-section {
-        padding-top: 70px;
+        padding-top:10px;
 
     }
 }
