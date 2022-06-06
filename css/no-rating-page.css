@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #2851a9 !important;
+    font-size: 16px !important;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+    background-color: transparent !important;
+    color: #2851a9 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    opacity: 0.8;
+  }
+  
+  
+.cos-bg-primary{
+    background: #2750A8;
+    color: #fff ;
+    
+}
+
+.cos-bg-primary:hover{
+    background: #1B3F8E;
+    color: #fff; 
+    
+}
