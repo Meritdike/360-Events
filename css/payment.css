@@ -1,0 +1,50 @@
+.cards{
+    width: 150px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+.cards p{
+    padding-top: 16px;
+}
+.cards img{
+    padding-top: 9px;
+}
+.credit-card img{
+    width: 80%;
+}
+.add-card{
+    width: 50px;
+    height: 80px;
+    border: 1px solid black;
+}
+.new-card{
+    width: 300px;
+    height: 190px;
+    border-radius: 10px;
+}
+.add-new{
+    padding-top: 30px;
+}
+.flutter{
+    background: url(../img/flutter.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+.dark-blue{
+	color: #0E0E2C;
+}
+.mid-blue{
+    color: #012762;
+}
+.light-blue{
+    color:#2750A8;
+}
+.light-ash{
+    color: #9EA2BB;
+
+}
+.profile img{
+    margin: auto;
+}
+
