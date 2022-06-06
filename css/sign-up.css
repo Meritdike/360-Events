@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-section {
+    background-image: url("../img/sign-up-image.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media(max-width: 769px) {
+    .form-section {
+        width: 90% !important;
+    }
+}
