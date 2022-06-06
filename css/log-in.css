@@ -8,12 +8,19 @@
     background-image: url("../img/log-in-image.png");
     background-size: cover;
     background-position: center;
+<<<<<<< HEAD:css/log-in.css
     background-repeat: no-repeat;
 }
 
 
 @media(max-width: 769px) {
     .log-in-section {
+=======
+}
+
+@media(max-width: 769px) {
+    .form-section {
+>>>>>>> b5c96be0f42c6747754424e457918a2184165ea5:css/sign-up.css
         width: 90% !important;
     }
 }
