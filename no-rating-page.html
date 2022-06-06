@@ -2,17 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How it works</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/how-it-works-logged-in.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/no-rating-page.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Ratings</title>
 </head>
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color: #060316;">
             <div class="container">
@@ -26,7 +24,7 @@
                 </form>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link me-2 fw-bold active" aria-current="page"  href="landing-page.html" style="color: #060316;font-size: 14px;">Home</a>
+                    <a class="nav-link me-2 fw-bold" href="landing-page.html" style="color: #060316;font-size: 14px;">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link me-2 fw-bold" href="about-us.html" style="color: #060316; font-size: 14px;">About Us</a>
@@ -35,13 +33,13 @@
                     <a class="nav-link me-2 fw-bold" href="create-event-page.html" style="color: #060316; font-size: 14px;">Create an Event</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link me-2 fw-bold"  href="aution.html" style="color: #060316; font-size: 14px;">Auction Page</a>
+                    <a class="nav-link me-2 fw-bold" href="aution.html" style="color: #060316; font-size: 14px;">Auction Page</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link me-2 fw-bold" href="help.html" style="color: #060316; font-size: 14px;">Help Center</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #060316; font-size: 14px;">
+                    <a class="nav-link dropdown-toggle fw-bold active" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #060316; font-size: 14px;">
                       <img src="img/profile.png" alt="profile picture">
                     </a>
                     <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
@@ -51,7 +49,7 @@
                       <li><a class="dropdown-item" href="dashboard.html" style="color: #060316; font-size: 14px;">Created Events</a></li>
                       <li><a class="dropdown-item" href="bookmarks.html" style="color: #060316; font-size: 14px;">Bookmarks</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="login.html" style="color: #060316; font-size: 14px;">Log Out</a></li>
+                      <li><a class="dropdown-item" href="log-in.html" style="color: #060316; font-size: 14px;">Log Out</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -59,113 +57,44 @@
             </div>
           </nav>
     </header>
-    <section id="navSection" class="bg-secondary py-4">
-      <div class="navbar navbar-dark navbar-expand-lg navbar-expand-md">
-          <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
-                      <li class="nav-item">
-                          <a class="nav-link link-light fw-bold" href="how-it-works.html">How It Works</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link link-light fw-bold" href="aution.html">Browse Auctions</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link link-light fw-bold" href="add-bid.html">Add bid</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-      </div>
-    </section>
-    <section id="adSection" class="py-5">
-        <div class="container py-5">
+
+    <div class="py-5">
+        <div class="container px-4">
             <div class="row">
-                <div class="col-lg-6 py-5">
-                    <div class="d-flex">
-                        <h2 class="py-5">Sell with Event360</h2>
-                        <p class="fs-4 pe-lg-5" style="padding-top: 150px;">Auction House</p>
-                    </div>
-                    <div class="pb-5">
-                        <button class="btn btn-primary px-5">ADD BID</button>
-                    </div>
+                <div class="col-lg-6 py-1">
+                <div>
+                    <h2 class="fw-bold" style="color: #0E0E2C; font-size: 32px;">Reviews & Ratings</h2>
+                </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="howitworksSection" class="pt-5">
-        <div class="container-fluid">
-          <div class="topic py-5">
-                <h2 class="text-primary text-center">How it Works?</h2>
-          </div>
-          <div class="row">
-              <div class="col-lg-6">
-                  <div class="d-flex ps-5">
-                      <img src="img/one.png" class="img-fluid h-25 ms-5" style="padding-top: 120px;">
-                      <div class="text pt-5">
-                          <img src="img/select category.png" class="img-fluid">
-                          <h5 class="text-center">Select Category</h5>
-                          <p>Select the type of Item you wish to see eg Paintings, Beads, Drawings, Scultpure, Ankara wears e.t.c.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <div class="ellipse d-flex flex-row-reverse">
-                      <img src="img/Ellipse.png" class="w-25">
-                  </div>
-                  <div class="line">
-                      <img src="img/Line 15.png" class="img-fluid w-50" style="padding-top: 120px;">
-                  </div>
-              </div>
-              <div class="col-lg-6">
-                  <img src="img/left ellipse.png" class="img-fluid h-50">
-              </div>
-              <div class="col-lg-6">
-                  <div class="info">
-                      <img src="img/two.png" class="img-fluid" style="padding-left: 250px;">
-                      <img src="img/provide information.png" class="img-fluid" style="padding-left: 100px;">
-                      <h5 class="text-center">Provide Information</h5>
-                      <p class="text-center">Add dimensions, history and any documentation</p>
-                  </div>
-                  <img src="img/Line 16.png" class="img-fluid pt-lg-5" style="padding-right: 300px;">
-              </div>
-              <div class="col-lg-6">
-                <img src="img/three.png" class="img-fluid" style="padding-left: 300px;">
-                <div class="photo d-flex">
-                    <img src="img/submit photographs.png" class="img-fluid h-75">
+
+            <div class="text-center py-5">
+                <div class="py-2">
+                    <img src="img/no-rating.png" alt="" class="img-fliud">
                 </div>
-                <div class="text d-block">
-                    <h5 class="text-center">Submit Photographs</h5>
-                    <p class="text-center">Take front and back images of your item and upload</p>
+
+                <div class="row d-flex justify-content-center py-3">
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                            <img src="img/no-rating.png" alt="" class="img-fliud">                               
+                    </div>
+
+                    <div class="col-lg-2 col-md-2">
+                            <img src="img/no-rating.png" alt="" class="img-fliud">                               
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="d-flex">
-                  <img src="img/Line 17.png" class="img-fluid h-75 w-25" style="padding-top: 300px; width: 250px;">
-                  <img src="img/right ellipse.png" class="img-fluid w-75" style="padding-left: 100px;">
+
+                <div class="py-2">
+                    <p class="fw-bold" style="color: #012762; font-size: 28px;">You have no ratings or reviews yet</p>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="d-flex">
-                    <img src="img/Ellipse 3.png" class="img-fluid h-75 px-3 pt-5">
-                    <img src="img/Ellipse 4.png" class="img-fluid h-50 pt-5">
+
+                <div class="d-grid gap-2 col-3 mx-auto mt-3">
+                    <a href="create-event-page.html"class="btn fw-bold cos-bg-primary" style="font-size: 16px;" type="button">Start Booking</a>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="d-flex">
-                  <img src="img/four.png" class="h-50">
-                  <img src="img/review and submit.png" class="img-fluid w-75">
-                </div>
-                <div class="text">
-                  <h5 class="text-center">Review and Submit</h5>
-                  <p class="text-center">All set! Our specialists will review your submission</p>
-                </div>
-              </div>
             </div>
-          </div>
+
         </div>
-      </div>
-    </section>
+    </div>
+
     <footer style="background-color: #2750A8;">
       <div class="container py-3 py-lg-5 py-md-5">
         <div class="row text-light">
@@ -185,7 +114,7 @@
             <div class="col-lg-4 col-md-4 col-12 pt-4">
               <h5 class="pb-2 fs-6">Company</h5>
               <p><a href="landing-page.html" class="text-decoration-none link-light" style="font-size: 14px;">Home</a></p>
-              <p><a href="bid-page.html" class="text-decoration-none link-light" style="font-size: 14px;">Pricing</a></p>
+              <p><a href="bid_page.html" class="text-decoration-none link-light" style="font-size: 14px;">Pricing</a></p>
               <p><a href="help.html" class="text-decoration-none link-light" style="font-size: 14px;">FAQS</a></p>
               <p><a href="landing-page.html" class="text-decoration-none link-light" style="font-size: 14px;">Testimonials</a></p>
             </div>
@@ -208,8 +137,8 @@
         </div>
       </div>
     </footer>
-
-    <script src="js/how-it-works-logged-in.js"></script>
+    
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/no-rating-page.js"></script>
 </body>
 </html>

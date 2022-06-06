@@ -5,16 +5,16 @@
 }
 
 .image-section {
-    background-image: url("../img/log-in-image.png");
+    background-image: url("../img/sign-up-image.png");
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     background-repeat: no-repeat;
 }
 
 
 @media(max-width: 769px) {
-    .log-in-section {
+    .form-section {
         width: 90% !important;
     }
 }

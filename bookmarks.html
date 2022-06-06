@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/bookmarks.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/header-and-footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <title>Payment</title>
+    <title>Bookmarks</title>
 </head>
 <body>
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="color: #060316;">
         <div class="container">
@@ -26,7 +27,7 @@
             </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link me-2 fw-bold" href="landing-page.html" style="color: #060316;font-size: 14px;">Home</a>
+                <a class="nav-link me-2 fw-bold"  href="landing-page.html" style="color: #060316;font-size: 14px;">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link me-2 fw-bold" href="about-us.html" style="color: #060316; font-size: 14px;">About Us</a>
@@ -47,9 +48,9 @@
                 <ul class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="profile.html" style="color: #060316; font-size: 14px;">Profile</a></li>
                   <li><a class="dropdown-item" href="rating-page.html" style="color: #060316; font-size: 14px;">Reviews</a></li>
-                  <li><a class="dropdown-item active" aria-current="page" href="payment.html" style="color: #060316; font-size: 14px;">Payments</a></li>
+                  <li><a class="dropdown-item" href="payment.html" style="color: #060316; font-size: 14px;">Payments</a></li>
                   <li><a class="dropdown-item" href="dashboard.html" style="color: #060316; font-size: 14px;">Created Events</a></li>
-                  <li><a class="dropdown-item" href="bookmarks.html" style="color: #060316; font-size: 14px;">Bookmarks</a></li>
+                  <li><a class="dropdown-item active" aria-current="page" href="bookmarks.html" style="color: #060316; font-size: 14px;">Bookmarks</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="log-in.html" style="color: #060316; font-size: 14px;">Log Out</a></li>
                 </ul>
@@ -58,36 +59,33 @@
           </div>
         </div>
       </nav>
-  </header>
+</header>
+
     <section class="container">
-        <div class="payment-info mt-4 dark-blue fs-2 fw-bold" >
-            <p>Payment Information</p>
+        <div class="payment-info mt-5 text-primary mx-2" >
+            <p class="dark-blue fs-2 fw-bold">Bookmarks</p>
         </div>
-        <div class="d-flex mt-3">
-            <div class="cards text-center">
-                <p>Debit Cards</p>
-            </div>
-            <div class="cards mx-3 flutter">
-                
-            </div>
+
+        <div class="d-flex justify-content-center align-items-center flex-column mt-4">
+          <div class='img-fluid'>
+            <img src="./img/bookmark.png"  alt="bookmark">
+          </div>
+          <div>
+            <p class="mid-blue fs-4 fw-bold mt-4">You have no bookmarks yet. Bookmark vendors to view later</p>
+          </div>
+          <div class="my-3">
+            <button class="btn" style="background:#012762" type="button"><a href=all-vendor-list.html style="text-decoration: none; color:white">Explore</a></button>
         </div>
-        <div class="flex mt-5">
-            <div class="credit-card">
-                <img src="./img/existing-card.png"  class="img-fluid" alt="Credit Card">
-            </div>
-            <div class="credit-card mt-2">
-                <a href="new-card.html"><img src="./img/add-new.png"    alt="Add card"></a>
-            </div>
-            
         </div>
-        <div class="mid-blue h6 my-5">
-            <a href="card-details.html" style="text-decoration: none"><p>View card details</p></a>
-        </div>
-        
-        
 
 
-    </section>   
+
+
+
+
+
+    </section>
+
     <footer style="background-color: #2750A8;">
       <div class="container py-3 py-lg-5 py-md-5">
         <div class="row text-light">
