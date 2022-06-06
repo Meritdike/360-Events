@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #2851a9 !important;
+    font-size: 16px !important;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+    background-color: transparent !important;
+    color: #2851a9 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    opacity: 0.8;
+  }
+
+#help-intro {
+    background: url(../img/help-bg.png) center/cover no-repeat;
+    min-height: 70vh;
+}
+
+.bg-dark {
+    background: #0E0E2C !important;
+}
+
+input#search{
+    background-image: url(../img/search.icon.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
+input#search:focus {
+    background-image: none;
+}
+
+.hi-help, .email-link {
+    color: #9EA2BB;
+}
+
+.card {
+     box-shadow: 1px 2px 15px 1px rgba(158, 162, 187, 0.87);
+     height: 24vh !important;
+     transition: transform ease-in 0.3s;
+     border-radius: 18px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+#faq .faq-head {
+    background: #D8D8D833;
+}
+
+
+#faq .faq-prompt, .text-danger {
+    color: #012762 !important;
+} 
+
+.accordion-item {
+    box-shadow: 1px 2px 6px 1px rgba(158, 162, 187, 0.87);
+}
+
+@media (max-width: 769px) {
+    .input-group {
+        width: 70% !important;
+    }
+}
