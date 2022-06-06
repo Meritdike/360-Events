@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap');
+* {
+    font-family: 'Public Sans', sans-serif;
+    padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.nav-link:hover, .nav-link.active {
+    color: #2851a9 !important;
+    font-size: 16px !important;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+    background-color: transparent !important;
+    color: #2851a9 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    opacity: 0.8;
+  }
+  
+.hero-section {
+    background:linear-gradient(0deg, rgba(39, 80, 168, 0.2), rgba(39, 80, 168, 0.2)), url(../img/Rectangle\ 124.png) no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding-top: 90px;
+}
+.price-border {
+    width: 0;
+    height: 40px;
+    border-right: 1px solid #797c92;
+}
+.btn-outline-primary {
+    color:  #758FC7 !important;
+    border: 1px solid  #758FC7 !important;
+}
+.text-primary1 {
+    color: #2750A8;
+}
+.bg-primary1 {
+    background-color: #2750A8;
+}
+.text-primary2 {
+    color: #012762;
+}
+.text-primary3 {
+    color: #0E0E2C;
+}
+.text-secondary1 {
+    color: #9EA2BB;
+}
+.text-secondary2 {
+    color: #D8D8EA;
+}
+.text-secondary3 {
+    color: #D8D8D8;
+}
+.sub-heading {
+    font-size: 34px;
+    font-weight: 600;
+}
+.b1 {
+    font-size: 30px;
+}
+.b2 {
+    font-size: 16px;
+}
+.input-field-text {
+    font-size: 23px;
+
+}
+.identifier {
+    font-size: 12px;
+}
+.section-space {
+    margin-bottom: 100px;
+}
+.hero-icon {
+    padding-right: 10px;
+    color: #4BD37B;
+}
+
+
+/*desktop*/
+@media (max-width: 769px) {
+    .hero-section {
+        padding-top:10px;
+
+    }
+}

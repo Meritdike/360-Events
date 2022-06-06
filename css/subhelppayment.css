@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    color: #2851a9 !important;
+    font-size: 16px !important;
+  }
+  
+  .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
+    background-color: transparent !important;
+    color: #2851a9 !important;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    opacity: 0.8;
+  }
+
+input#search{
+    background-image: url(../img/search.icon.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+}
+
+input#search:focus {
+    background-image: none;
+}
+
+#event-payment-searchbar {
+    background: url(../img/subhelp-payment-bg.png) center/cover no-repeat;
+    min-height: 30vh;
+}
+
+#events-payment .subevents-payment {
+    box-shadow: 1px 2px 15px 1px rgba(159, 159, 159, 0.64);
+}
+
+.black-space {
+    background: #0E0E2C;
+    min-height: 3vh;
+}
+
+.a-grey {
+    color: #A9A8B3;
+}
+
+.greyish {
+    color: #9EA2BB
+}
+
+.bluish {
+    color: #012762;
+}
+
+.btn:hover {
+    background: #012762;
+}
+
+.email-link {
+    color: #9EA2BB;
+}
+
+.bi:hover {
+    color: blue;
+}
+
+@media (max-width: 426px) {
+    .subhelp-categories, .subevents-payment {
+        width: 100% !important;
+    }
+}
