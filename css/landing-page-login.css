@@ -22,7 +22,7 @@
   }
   
 .hero-section {
-    background:linear-gradient(0deg, rgba(39, 80, 168, 0.2), rgba(39, 80, 168, 0.2)), url(../img/Rectangle\ 124.png) no-repeat;
+    background:linear-gradient(0deg, rgba(39, 80, 168, 0.5), rgba(39, 80, 168, 0.5)), url(../img/Rectangle\ 124.png) no-repeat;
     background-size:cover;
     background-position: center;
     padding-top: 90px;
