@@ -12,7 +12,7 @@
 .dropdown-item:focus, .dropdown-item:hover, .dropdown-item.active {
   background-color: transparent !important;
   color: #2851a9 !important;
-  font-size: 16px !important;
+  /* font-size: 16px !important; */
   font-weight: bold;
 }
   
