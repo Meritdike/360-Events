@@ -15,7 +15,7 @@ dropdownItems.forEach(dropdownItem => {
     });
 });
 
-let bidEnd = new Date("Jun 6, 2022 12:00:00").getTime();
+let bidEnd = new Date("Jun 8, 2022 12:00:00").getTime();
 
 let timer = setInterval(tick, 1000)
 
